@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('folhas-verdes-pequenas-textura-de-fundo-plantas-de-cobertura-sempre-verdes-parede-ecologica-fundo-natural-organico-ambiente-limpo-planta-ornamental-no-jardim_33867-1492.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  background-color: rgba(44, 110, 73, 0.9);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+img {size: 10%;}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c8e6c9;
+  font-weight: bold;
+}
+
+section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: #dcedc8;
+  margin-bottom: 1rem;
+}
+
+.produto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.produto {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.produto h3 {
+  margin-top: 0.8rem;
+  color: #f0f8f0;
+}
+
+.produto p {
+  color: #a5d6a7;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.8rem;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 1rem;
+  color: #c8e6c9;
+}
